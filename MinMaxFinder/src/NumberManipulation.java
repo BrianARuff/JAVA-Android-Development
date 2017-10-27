@@ -1,13 +1,21 @@
 import java.util.Arrays;
-
+​
 public class NumberManipulation {
     double[] array;
     double sum;
+<<<<<<< HEAD
 
     void setArray(double...newArray){
         array = newArray;
     }
 
+=======
+​
+    void setArray(double...newArray){
+        array = newArray;
+    }
+​
+>>>>>>> 80a47ae5235ab58e3b2a5a464a12baa38ae886ea
     void findMinimum() {
         Arrays.sort(array);
         for (int i = 0; i < array.length; i++) {
@@ -17,7 +25,7 @@ public class NumberManipulation {
         );
         System.out.println('\n');
     }
-
+​
     void findMaximum() {
         Arrays.sort(array);
         {
@@ -29,8 +37,8 @@ public class NumberManipulation {
             System.out.println('\n');
         }
     }
-
-
+​
+​
     void average() {
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
@@ -40,14 +48,14 @@ public class NumberManipulation {
         );
         System.out.println('\n');
     }
-
+​
     void multiplyBy2() {
         for (double item: array) {
             System.out.println(item+" doubled = "+item*2 + '\n');
         }
     }
 }
-
+​
 class ArrayNumbersSorted {
     public static void main(String[] args) {
         NumberManipulation arrayTwo = new NumberManipulation();
