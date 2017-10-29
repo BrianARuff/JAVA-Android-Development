@@ -10,11 +10,7 @@ public class NumberManipulation {
     }
 
 =======
-​
-    void setArray(double...newArray){
-        array = newArray;
-    }
-​
+
 >>>>>>> 80a47ae5235ab58e3b2a5a464a12baa38ae886ea
     void findMinimum() {
         Arrays.sort(array);
